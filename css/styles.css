@@ -17,7 +17,7 @@ h1 {
 /* Navigation bar */
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 .navbar-brand {
@@ -49,16 +49,19 @@ h1 {
 
 /* Title Image */
 .title-image {
-  width: 60%;
+  width: 22%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 15%;
 }
 
 /* features */
 
 #features {
   padding: 7% 15%;
-
-
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
 }
 
 .font-awesome {
@@ -121,4 +124,15 @@ h2 {
 .press-logo {
   width: 15%;
   margin: 20px 20px 50px;
+}
+
+/* pricing section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
 }
